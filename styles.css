@@ -12,13 +12,13 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background: linear-gradient(135deg, #ffcc33, #ff6699);
+    background: linear-gradient(135deg, #007bff, #00aaff);
     color: white;
     text-align: center;
 }
 
 .container {
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 102, 0.8); /* Darker blue background */
     padding: 20px 40px;
     border-radius: 10px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
@@ -37,7 +37,7 @@ h1 {
 button {
     padding: 15px 25px;
     font-size: 18px;
-    background-color: #007bff;
+    background-color: #0056b3; /* Primary blue */
     color: white;
     border: none;
     border-radius: 5px;
@@ -46,7 +46,7 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #003d80; /* Darker blue on hover */
 }
 
 @media (max-width: 600px) {
