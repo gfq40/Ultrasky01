@@ -1,5 +1,5 @@
 function navigateTo(page) {
-    alert(`Navigating to ${page} page...`);
+    window.location.href = page;
 }
 
 // Register the service worker
